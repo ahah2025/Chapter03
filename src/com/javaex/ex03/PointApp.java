@@ -14,13 +14,11 @@ public class PointApp {
 		System.out.println("=========================");
 		
 		//보통의경우 주소값이 같을 수가 없다.
-		Point p01 = new Point(3,3);
-		Point p02 = new Point(3,3);
+		Point p01 = new Point(3,6);
+		Point p02 = new Point(3,6);
 		System.out.println(p01==p02);  //false 0x333 == 0x789    //주소값이 같냐?
 		
 		System.out.println(p01.equals(p02));
-		
-		
 		
 		
 		//주소값이 같은 경우
