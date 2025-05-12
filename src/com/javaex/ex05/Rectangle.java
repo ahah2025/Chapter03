@@ -1,8 +1,6 @@
 package com.javaex.ex05;
 
-import java.util.Objects;
-
-public class Rectangle {
+public class Rectangle { //기본값 누구를 상속받는지?
 
 	//필드
 	private int width;

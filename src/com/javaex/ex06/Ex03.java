@@ -7,7 +7,7 @@ public class Ex03 {
 		String s01 = new String("안녕하세요");
 		String s02 = new String("안녕하세요");
 		
-		System.out.println(s01 == s02); //주소 같냐? new는 주소가 다르다      			false
+		System.out.println(s01 == s02); //주소가 같냐? new는 주소가 다르다    			false
 		System.out.println(s01.equals(s02)); //실제값이 같냐? equals() 사용해야 한다    true
 		
 		System.out.println("-----------------------");
