@@ -17,7 +17,7 @@ public class Ex01 {
 		System.out.println(s01.toString());
 		
 		System.out.println(s00 == s01);   //== 주소가 같냐?
-		System.out.println(s00.equals(s01));  // 글자가 같니?
+		System.out.println(s00.equals(s01));  // (직접 가지고 있는 값이 같냐?)글자가 같니?
 		System.out.println("---------------------------------------");
 		/////////////////////////////////////////
 		
